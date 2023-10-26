@@ -8,8 +8,9 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <Diagram1/>
-      <a href="https://mdxjs.com/docs/what-is-mdx/">MDX</a>
+      <Diagram1/><br/>
+      <a href="https://mdxjs.com/docs/what-is-mdx/">MDX</a><br/>
+      <a href="https://www.youtube.com/watch?v=n2CV6f0vFr4&t=31s">MDX next with app directory</a>
     </main>
   )
 }
