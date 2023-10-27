@@ -11,11 +11,7 @@ const nextConfig = {
 
     config.module.rules.push(
       // Reapply the existing rule, but only for svg imports ending in ?url
-      {
-        ...fileLoaderRule,
-        test: /\.svg$/i,
-        resourceQuery: /url/, // *.svg?url
-      },
+
       // Convert all other *.svg imports to React components
       {
         test: /\.svg$/i,
