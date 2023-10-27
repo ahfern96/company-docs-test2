@@ -9,8 +9,6 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Diagram1/><br/>
-      <a href="https://mdxjs.com/docs/what-is-mdx/">MDX</a><br/>
-      <a href="https://youtu.be/n2CV6f0vFr4?t=386">MDX next with app directory</a>
     </main>
   )
 }
