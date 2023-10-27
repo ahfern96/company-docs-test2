@@ -4,10 +4,13 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import Link from "next/link"
 
+import Diagram1 from './diagram1.svg'
+
 export default function Home() {
 
   return (
     <main className={styles.main}>
+      <Diagram1/>
       <h1>Proceedures</h1>
       <ul>
         <li><Link href="01-AP-Accounts-Payable">01-AP-Accounts Payable</Link></li>
