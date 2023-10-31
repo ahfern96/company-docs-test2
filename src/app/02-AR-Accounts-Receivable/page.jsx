@@ -1,4 +1,4 @@
-import Diagram2 from '../02-AR-Accounts-Receivable/orderEntryDiagram.svg'
+"use client"
 
 export default function Page(){
     return(
