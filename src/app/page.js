@@ -23,6 +23,8 @@ export default function Home() {
         <li><Link href="12-Q2C-Quote-to-Cash">12-Q2C-Quote-to-Cash</Link></li>
         <li><Link href="13-RSTK-Replenish-Stock">13-RSTK-Replenish-Stock</Link></li>
         <li><Link href="14-SLS-Sales">14-SLS-Sales</Link></li>
+        <hr/>
+        <li><Link href="https://codesandbox.io/s/table-of-content-widget-7v5dup">Table of content widget</Link></li>
       </ul>
     </main>
   )
